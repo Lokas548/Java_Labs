@@ -12,10 +12,9 @@ public class Task3 {
             i++;
         }
 
-        //System.out.println("Flatten matrix:");
+        
         for (int j = 0; j < numbersList.size();j++){
             flattenMatrixArray[j] = numbersList.get(j);
-            //System.out.println(flattenMatrixArray[j]);
         }
 
         return flattenMatrixArray;
