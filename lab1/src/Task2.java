@@ -14,10 +14,9 @@ public class Task2 {
         }
         even.addAll(odd);
 
-        //System.out.println("Segregate array:");
+       
         for (int i = 0; i < even.size();i++){
             array[i] = even.get(i);
-            //System.out.println(array[i]);
         }
 
         return array;
