@@ -14,12 +14,10 @@ public class Task4 {
 
         for (int i = 1 ; i < numbersArray.length; i++){
             if(numbersArray[i] != numbersArray[i-1] * progressionDenominator){
-                //System.out.println("GeometricProgression: False");
                 return false;
             }
         }
 
-        //System.out.println("GeometricProgression: True");
         return true;
 
     }
